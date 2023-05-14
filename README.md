@@ -1,0 +1,12 @@
+# Higgs-boson-prediction
+The summary of the research work involves reproducing the results of a base paper related to predicting the presence of Ghost particles in proton collisions at the Large Hadron Collider (LHC) using CERN datasets and classification techniques. Additionally, the researchers aimed to improve upon the base paper's results by implementing and comparing different classification algorithms with 10-fold cross-validation.
+
+The study began by obtaining the CERN datasets containing data from proton collisions at the LHC. These datasets included measurements of various particles and their properties. The presence or absence of Ghost particles was known for a subset of the data, which was used as labeled data for training and evaluation.
+
+To reproduce the results of the base paper, the researchers implemented the classification model described in the paper using the same set of features and algorithms. The model was trained on the labeled data and evaluated using appropriate performance metrics to assess its accuracy in predicting the presence of Ghost particles.
+
+Following the reproduction of the base paper results, the researchers sought to improve upon them. They explored and compared different classification algorithms such as decision trees, random forests, support vector machines, and neural networks. To ensure robust evaluation, they employed 10-fold cross-validation, which involves splitting the data into ten subsets and training and testing the model on different combinations of these subsets. This allowed them to obtain more reliable performance estimates for each algorithm.
+
+By comparing the results of the different algorithms using cross-validation, the researchers could identify the most effective approach for predicting the presence of Ghost particles. They considered metrics such as accuracy, precision, recall, and F1 score to evaluate the performance of each algorithm.
+
+The findings of this research contribute to the understanding of predicting the presence of Ghost particles in proton collisions at the LHC. By reproducing the base paper results and improving upon them, the researchers demonstrate the validity and potential for further advancements in this field. The comparative analysis of different algorithms with 10-fold cross-validation provides valuable insights into the effectiveness of various classification techniques for this particular task.
